@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colabs",
+      "handler": "colab.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colabs/count",
+      "handler": "colab.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colabs/:id",
+      "handler": "colab.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colabs",
+      "handler": "colab.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colabs/:id",
+      "handler": "colab.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colabs/:id",
+      "handler": "colab.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
