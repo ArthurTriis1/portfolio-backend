@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "tags"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "projects": {
+      "via": "tags",
+      "collection": "project"
+    }
+  }
+}

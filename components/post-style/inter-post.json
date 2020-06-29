@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_post_style_inter_posts",
+  "info": {
+    "name": "interPost",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "text"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-style.image-post"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
