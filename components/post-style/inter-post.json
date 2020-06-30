@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "paragraph": {
-      "type": "text"
-    },
     "images": {
       "type": "component",
       "repeatable": true,
@@ -16,6 +13,9 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
     }
   }
 }
