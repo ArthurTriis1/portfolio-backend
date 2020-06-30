@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_post_style_links",
+  "info": {
+    "name": "Link",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

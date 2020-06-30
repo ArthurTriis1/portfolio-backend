@@ -17,12 +17,6 @@
       "type": "text",
       "required": true
     },
-    "repository": {
-      "type": "string"
-    },
-    "access": {
-      "type": "string"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -43,6 +37,11 @@
       "type": "component",
       "repeatable": true,
       "component": "post-style.inter-post"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-style.link"
     }
   }
 }
